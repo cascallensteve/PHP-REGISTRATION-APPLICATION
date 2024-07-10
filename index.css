@@ -1,0 +1,17 @@
+body
+
+/* Add some texture */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://www.transparenttextures.com/patterns/black-paper.png');
+    /* New dark texture */
+    opacity: 0.4;
+    /* Control the opacity of the texture */
+    z-index: -1;
+    /* Ensure the texture is behind other content */
+}
